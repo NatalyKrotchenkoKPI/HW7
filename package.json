@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "wdio": "wdio run ./wdio.conf.js",
     "test:chrome": "cross-env BROWSER=chrome wdio wdio.chrome.conf.js",
-    "test:firefox": "cross-env BROWSER=firefox wdio wdio.firefox.conf.js",
     "test:edge": "cross-env BROWSER=edge wdio wdio.edge.conf.js",
     "allure:generate": "allure generate allure-results --clean",
     "allure:open": "allure open"

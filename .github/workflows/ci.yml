@@ -27,6 +27,9 @@ jobs:
       - name: Run tests with Chrome
         run: npm run test:chrome
 
+      - name: Run tests with Edge
+        run: npm run test:edge
+
       - name: Publish Allure Report
         uses: actions/upload-artifact@v2
         with:
