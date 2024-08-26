@@ -32,4 +32,4 @@ This project is a test automation framework built using WebDriverIO for the Cond
 
 - **Edge:**
   ```bash
-  npm run test:chrome
+  npm run test:edge
